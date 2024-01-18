@@ -49,6 +49,10 @@ p, h1, h2, h3, h4, h5, label, input{
     display: none;
 }
 
+.biru {
+    background-color: rgb(112, 236, 255);
+}
+
 img {
     width: 15em;
     height: 15em;
@@ -71,4 +75,27 @@ button {
     border: 0.5em solid #a0cd70;
     padding: 0 4em 2em 4em;
     border-radius: 0.8em;
+}
+
+#div-toggle {
+    display: flex;
+    width: 10em;
+    height: 2em;
+    justify-content: center;
+    
+}
+
+#div-toggle > button {
+    margin: 0 0 1em 0;
+    width: 5em;
+}
+
+#toggleLuas {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#toggleKeliling {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0   ;
 }

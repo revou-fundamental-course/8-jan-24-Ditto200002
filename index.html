@@ -12,13 +12,22 @@
         <div class="welcome"><H3>Welcome to Katik</H3><p>Web apps penghitung luas dan keliling bangun datar</p></div>
         <div class="calculate">
             <div class="judul"><h2>PERSEGI</h2></div>
-            <img src="https://i.ibb.co/4snPt1R/persegi.png" alt="persegi" border="0">
+            <img src="https://i.ibb.co/4snPt1R/persegi.png" alt="persegi">
             <div class="rumus">
-                <label for="keliling">Keliling</label><input type="number" id="keliling" placeholder="sisi + sisi + sisi + sisi" disabled>
-                <label for="luas">Luas</label><input type="number" id="luas" placeholder="sisi x sisi" disabled>
+                <div id="rumus-keliling">
+                    <label for="keliling">Keliling</label><input type="number" id="keliling" placeholder="sisi + sisi + sisi + sisi" disabled>
+                </div>
+                <div id="rumus-luas" class="hide">
+                    <label for="luas">Luas</label><input type="number" id="luas" placeholder="sisi x sisi" disabled>
+                </div>
+                
             </div>
             <div class="input-hasil">
-                <h2>Hitung Keliling & Luas</h2>
+                <h2>Hitung Keliling / Luas</h2>
+                <div id="div-toggle">
+                    <button id="toggleKeliling">Keliling</button>
+                    <button id="toggleLuas">Luas</button>
+                </div>
                 <label for="sisi">Masukkan nilai sisi</label>
                 <input id="sisi">
                 <hr>
